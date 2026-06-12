@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+.phone {
+    width: 390px;
+    min-height: 820px;
+    background: #f7f8ff;
+    border-radius: 32px;
+    padding: 22px 18px 90px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    border: 4px solid #9b9b9b;
+}
+
+.logo-icon {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    min-height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-logo .logo-icon {
+    width: 78px;
+    height: 78px;
+    font-size: 38px;
+    margin: 0 auto 12px;
+}
+
+.login-logo h1 {
+    color: #2563eb;
+    font-size: 30px;
+}
+
+.login-logo p {
+    color: #6b7280;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.card {
+    background: white;
+    border-radius: 22px;
+    padding: 18px;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.08);
+    margin-bottom: 16px;
+}
+
+.login-card {
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.small {
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    padding: 13px;
+    border-radius: 12px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.link {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 13px;
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social {
+    flex: 1;
+    background: #f9fafb;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid #e5e7eb;
+}
