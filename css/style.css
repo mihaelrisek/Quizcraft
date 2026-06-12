@@ -322,3 +322,56 @@ h3 {
 .nav-item.active {
     color: #4f46e5;
 }
+
+.upload-box {
+    border: 2px dashed #c7d2fe;
+    background: #eef2ff;
+    border-radius: 18px;
+    padding: 18px;
+    text-align: center;
+
+    color: #4338ca;
+    font-weight: 700;
+}
+
+.option-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.option {
+    background: white;
+    border: 1px solid #ddd6fe;
+    color: #4f46e5;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.option.active {
+    background: #ede9fe;
+    border-color: #7c3aed;
+}
+
+.chips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chip {
+    padding: 14px 12px;
+    border-radius: 14px;
+    background: white;
+    border: 1px solid #ddd6fe;
+    color: #4f46e5;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.chip.active {
+    background: #ede9fe;
+    border-color: #7c3aed;
+}
