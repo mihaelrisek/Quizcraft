@@ -475,3 +475,50 @@ h3 {
 .feedback h3 {
     color: #dc2626;
 }
+
+.result-score {
+    text-align: center;
+}
+
+.circle-score {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#7c3aed 70%, #e5e7eb 0);
+    margin: 0 auto 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-inner {
+    width: 88px;
+    height: 88px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-inner strong {
+        font-size: 28px;
+        color: #7c3aed;
+}
+
+.warning {
+    background: #fff1f2;
+    color: #be123c;
+    border-radius: 16px;
+    padding: 14px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.question-review {
+    background: white;
+    border-radius: 14px;
+    padding: 11px;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
